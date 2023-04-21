@@ -10,13 +10,17 @@ header {
   background-image: linear-gradient(62deg, cadetblue 0%, white 100%);
   padding: 40px 5em 40px;
 }
-
+header .b-header {
+  color: red;
+}
 header #headerTitulo {
   color: rgb(82, 94, 128);
   text-decoration: none;
   font-size: 1.4em;
+  font-family: "Eczar", serif;
 }
-
-header .b-header {
-  color: red;
+header #headerTitulo:hover {
+  color: aliceblue;
+  transition: 0.3s;
+  scale: 2, 1;
 }
