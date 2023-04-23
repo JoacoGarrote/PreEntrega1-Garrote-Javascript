@@ -18,9 +18,9 @@ header #headerTitulo {
   text-decoration: none;
   font-size: 1.4em;
   font-family: "Eczar", serif;
+  text-align: center;
 }
 header #headerTitulo:hover {
   color: aliceblue;
   transition: 0.3s;
-  scale: 2, 1;
 }
